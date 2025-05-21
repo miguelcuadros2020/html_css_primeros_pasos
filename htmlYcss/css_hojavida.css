@@ -1,0 +1,8 @@
+.parallax{
+    background-image: url(../imagen/pexels-olly-845434.jpg);
+    background-size:cover;
+    background-position:0 0;
+    background-attachment: fixed;
+
+}
+
