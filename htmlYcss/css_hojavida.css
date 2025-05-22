@@ -1,10 +1,88 @@
+.fondo1{
+    background-image: url(../imagen/my.jpg);
+    min-height: 800px; 
+}
+
+.fondo2{
+    background-image: url(../imagen/fondo-escritorio.jpg);
+    min-height: 800px;
+    
+}
+
+.flex{
+    display: flex;
+}
+
+.center-just{ 
+    justify-content: center;
+}
+.center-ali{
+    align-items: center;
+}
+
+.img-proy{
+    width: 150px;
+}
+
+.around{
+    justify-content: space-around;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.style-color{
+    background-color:rgba(128, 128, 128, 0.726);
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px 30px;
+}
+
+.box-proyectos{
+    margin: 10px;
+}
+
+.box-absolute{
+    height:550px;
+    width:600px;
+    position:absolute; 
+    top:620px;
+    z-index:99; 
+
+}
+
 .parallax{
-    background-image: url(../imagen/pexels-olly-845434.jpg);
     background-size:cover;
     background-position:0 0;
-    background-attachment: fixed;
+    background-attachment:fixed;
+    overflow: clip
+}
 
+.column{
+    flex-direction: column;
+
+}
+
+nav{
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+header{
+    height: 80px;
+    width: 98.7%;
+    background-color: rgba(128, 128, 128, 0.637);
+    position:absolute;
+
+}
+p.size-text{
+    font-size:small;
 }
 /* https://developer.mozilla.org/es/docs/Web/CSS/position
 https://es.stackoverflow.com/questions/94907/div-sobre-de-otro-div
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_parallax */
+
+/* presentacion  */
+/* proyectos */
+/* contacto */
