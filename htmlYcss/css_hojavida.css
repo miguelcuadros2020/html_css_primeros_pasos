@@ -9,6 +9,11 @@
     
 }
 
+.fondo3{
+    background-image: url(../imagen/fondo.jpg);
+    min-height: 800px;
+}
+
 .flex{
     display: flex;
 }
