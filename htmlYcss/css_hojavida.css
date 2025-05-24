@@ -1,17 +1,31 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+    z-index:99;
+    color: rgb(212, 212, 212); 
+
+}
+
+div.filtro{
+    background-color: rgba(54, 54, 54, 0.637);
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    z-index:98;
+}
+
 .fondo1{
-    background-image: url(../imagen/my.jpg);
+    background-image: url(../imagen/IMG_20230618_183803.jpg);
     min-height: 800px; 
+    background-position: 10px;
+    
 }
 
 .fondo2{
     background-image: url(../imagen/fondo-escritorio.jpg);
     min-height: 800px;
     
-}
-
-.fondo3{
-    background-image: url(../imagen/fondo.jpg);
-    min-height: 800px;
 }
 
 .flex{
@@ -38,7 +52,7 @@
 }
 
 .style-color{
-    background-color:rgba(128, 128, 128, 0.726);
+    background-color: rgba(54, 54, 54, 0.637);
     border-radius: 10px;
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
     padding: 10px 30px;
@@ -70,19 +84,24 @@
 }
 
 nav{
-    margin-top: 25px;
+
     margin-left: 50px;
+    font-size: 19px;
 }
 
 header{
     height: 80px;
-    width: 98.7%;
-    background-color: rgba(128, 128, 128, 0.637);
+    width: 100%;
+    background-color: rgba(54, 54, 54, 0.637);
     position:absolute;
 
 }
 p.size-text{
     font-size:small;
+}
+
+.z-99{
+    z-index: 99;
 }
 /* https://developer.mozilla.org/es/docs/Web/CSS/position
 https://es.stackoverflow.com/questions/94907/div-sobre-de-otro-div
