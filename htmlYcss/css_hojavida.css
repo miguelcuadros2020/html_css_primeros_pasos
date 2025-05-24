@@ -10,13 +10,13 @@
 div.filtro{
     background-color: rgba(54, 54, 54, 0.637);
     width: 100%;
-    height: 200%;
+    height: 249.3%;
     position: absolute;
     z-index:98;
 }
 
 .fondo1{
-    background-image: url(../imagen/IMG_20230618_183803.jpg);
+    background-image: url(../imagen/my-fond.jpg);
     min-height: 800px; 
     background-position: 10px;
     
@@ -26,6 +26,11 @@ div.filtro{
     background-image: url(../imagen/fondo-escritorio.jpg);
     min-height: 800px;
     
+}
+
+.fondo3{
+    background-image: url(../imagen/fondo.jpg);
+    min-height: 800px;
 }
 
 .flex{
@@ -50,6 +55,10 @@ div.filtro{
 .row{
     flex-direction: row;
 }
+
+/* .box-margine{
+    ma
+} */
 
 .style-color{
     background-color: rgba(54, 54, 54, 0.637);
@@ -102,6 +111,8 @@ p.size-text{
 
 .z-99{
     z-index: 99;
+}
+.container-absolute{
 }
 /* https://developer.mozilla.org/es/docs/Web/CSS/position
 https://es.stackoverflow.com/questions/94907/div-sobre-de-otro-div
