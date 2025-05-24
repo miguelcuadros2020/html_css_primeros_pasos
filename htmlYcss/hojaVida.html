@@ -7,27 +7,29 @@
     <title>Hoja de vida</title>
 </head>
 <body>
-    <header>
+    <div class="filtro"></div>
+    <header class="flex center-just center-ali">
         <div class="flex center-just center-ali">
-            <nav class="style-color">Presentación</nav> 
-            <nav class="style-color">Proyectos</nav>
-            <nav class="style-color aria-label">Contactame</nav>
+            <nav class="style-color">Presentation</nav> 
+            <nav class="style-color">Proyect</nav>
+            <nav class="style-color">Call me</nav>
         </div>
     </header>
     <main>
         <div class="parallax fondo1 flex center-just center-ali">
             <div class="style-color">
                 <h1>
-                    Soy <br>Miguel <br>Cuadros
+                    I am <br>Miguel <br>Cuadros
                 </h1>
+                <br>
                 <p>
-                    Programador en fontend y backend
+                    Programing in fontend and backend
                 </p>
             </div>
         </div>
         <div class="flex parallax fondo2 center-just">
-            <div class="box-absolute style-color ">
-                <h2 class="flex center-just">Proyectos y programas que he utilizado</h2>
+            <div class="box-absolute style-color flex column center-ali center-just around">
+                <h2 class="flex center-just">Proyects and programs</h2>
                 <div class="flex column center-ali">
                     <div class="flex row around">
                         <div class="box-proyectos"><a href="https://github.com/miguelcuadros2020/html_css_primeros_pasos"><img class="img-proy" src="../imagen/html.png" alt="image html"></a></div>
@@ -45,16 +47,18 @@
                 </div>
             </div>
         </div>
-        <div class="parallax fondo3 flex center-just center-ali">
-            <form action="" method="get" class="flex column center-ali style-color">
-                <label for="name">Nombre:</label>
-                <input class="box-proyectos" type="text" id="name" name="name" required>
+        <div >
+            <p class="z-99">Hello, nice to meet you. I am a programing. I like to think. I am very social</p>
 
-                <label for="email">correo:</label>
-                <input class="box-proyectos" type="email" id="email" name="email" required>
+            <form calss="z-99" action="" method="get">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
 
-                <label for="menssage">mensage:</label>
-                <textarea class="box-proyectos" name="menssage" id="menssage" rows="4" required></textarea>
+                <label for="email">email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="menssage">mensseger:</label>
+                <textarea name="menssage" id="menssage" rows="4" required></textarea>
 
                 <input type="submit" value="enviar">
             </form>
