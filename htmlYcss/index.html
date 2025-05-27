@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./htmlYcss/css_hojavida.css">
+    <link rel="stylesheet" href="./css_hojavida.css">
     <title>Hoja de vida</title>
 </head>
 <body>
@@ -48,23 +48,43 @@
             </div>
         </div>
         <div class="fondo3 parallax flex column center-ali center-just">
-            <p class="z-99 box style-color box-proyectos">Hello, nice to meet you. I am a programing. I like to think. I am very social</p>
+            <p class="z-99 box style-color box-proyectos">Hello, nice to meet you. I am a programing. I like to think. I am very social. </p>
 
-            <form class="z-99 style-color flex column center-ali center-just " action="" method="get">
-                <label for="name">Name:</label>
-                <input class="style-color box-proyectos" type="text" id="name" name="name" required>
+            <details class="z-99 style-color flex column center-ali center-just ">
+                <summary>More information my (click)</summary>
+                <form class="z-99 style-color flex column center-ali center-just " action="" method="get">
+                    <label for="name">Name:</label>
+                    <input class="style-color box-proyectos" type="text" id="name" name="name" required>
 
-                <label for="email">email:</label>
-                <input class="style-color box-proyectos" type="email" id="email" name="email" required>
+                    <label for="email">email:</label>
+                    <input class="style-color box-proyectos" type="email" id="email" name="email" required>
 
-                <label for="menssage">mensseger:</label>
-                <textarea class="style-color box-proyectos" name="menssage" id="menssage" rows="4" required></textarea>
+                    <label for="menssage">mensseger:</label>
+                    <textarea class="style-color box-proyectos" name="menssage" id="menssage" rows="4" required></textarea>
 
-                <input class="style-color box-proyectos" type="submit" value="enviar">
-            </form>
+                    <input class="style-color box-proyectos" type="submit" value="enviar">
+                </form>
+            </details>
+            <svg class="z-99 box style-color box-proyectos" width="150" height="100" viewBox="0 0 3 2">
+                <rect width="3" height="2" y="0" fill="#FFFF00" />
+                <rect width="3" height="2" y="0.8" fill="#0000FF" />
+                <rect width="3" height="2" y="1.4" fill="#FF0000" />
+            </svg>
+            <details class="z-99 box style-color box-proyectos">
+                <summary>Some details</summary>
+                <p>Here is my personal information <br> so that you can hire me.</p>
+            </details>
         </div>
     </main>
     <footer>
+        <div class="flex center-just center-ali">
+            <p class="style-color">© 2023 Miguel Cuadros</p>
+            <nav class="style-color">Contact me</nav>
+            <nav class="style-color">Privacy Policy</nav>
+        </div>
+    </footer>
+</body>
+</html>
 
     </footer>
 </body>
