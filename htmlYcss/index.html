@@ -10,15 +10,17 @@
     <div class="filtro"></div>
     <!-- heading -->
     <header class="flex center-just center-ali">
-        <div class="flex center-just center-ali">
-            <nav class="style-color">Presentation</nav> 
-            <nav class="style-color">Proyect</nav>
-            <nav class="style-color">Call me</nav>
-        </div>
+        <nav class="flex center-just center-ali">
+            <ul class="flex center-just center-ali around">
+                <li><a class="style-color" href="#presentation">Presentation</a></li>
+                <li><a class="style-color" href="#proyects">Proyects</a></li>
+                <li><a class="style-color" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <!-- contents -->
     <main>
-        <div class="parallax fondo1 flex center-just center-ali">
+        <div class="parallax fondo1 flex center-just center-ali" id="presentation">
             <div class="style-color">
                 <h1>
                     I am <br>Miguel <br>Cuadros
@@ -31,7 +33,7 @@
         </div>
         <!-- proyects -->
         <div class="flex parallax fondo2 center-just">
-            <div class="box-absolute style-color flex column center-ali center-just around">
+            <div class="box-absolute style-color flex column center-ali center-just around" id="proyects">
                 <h2 class="flex center-just">Proyects and programs</h2>
                 <div class="flex column center-ali">
                     <div class="flex row around">
@@ -53,7 +55,7 @@
         <div class="fondo3 parallax flex column center-ali center-just">
             <p class="z-99 box style-color box-proyectos">Hello, nice to meet you. I am a programing. I like to think. I am very social. </p>
             <!-- formal -->
-            <details class="z-99 style-color flex column center-ali center-just ">
+            <details class="z-99 style-color flex column center-ali center-just" id="contact">
                 <summary>More information my (click)</summary>
                 <form class="z-99 style-color flex column center-ali center-just " action="" method="get">
                     <label for="name">Name:</label>
@@ -84,8 +86,6 @@
     <footer>
         <div class="flex center-just center-ali">
             <p class="style-color">© 2023 Miguel Cuadros</p>
-            <nav class="style-color">Contact me</nav>
-            <nav class="style-color">Privacy Policy</nav>
         </div>
     </footer>
 </body>
